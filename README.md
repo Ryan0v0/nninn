@@ -15,6 +15,7 @@ pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases
 
 Run the following:
 ```commandline
+pip install optax
 python data.py with n_nets=100
 ```
 To train 100 neural nets with Adam and 100 neural nets with SGD. This command may run slowly the first time it is run on account of needing to download MNIST to `data/`.
